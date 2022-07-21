@@ -1,0 +1,386 @@
+:root {
+  --brand-color: #212121;
+  --second-color: #ffffff;
+  --active-color: #2196f3;
+  --description-color: #757575;
+  --second-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+  --grey-line-color: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-contacts {
+  text-decoration: none;
+  color: var(--description-color);
+
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header-contacts-number {
+  padding-left: 50px;
+}
+
+.footer-contacts {
+  text-decoration: none;
+  color: var(--description-color);
+
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.main-contacts {
+  padding-left: 364px;
+  display: flex;
+}
+
+.header-contacts:hover,
+.header-contacts:active,
+.header-contacts:focus,
+.footer-contacts:hover,
+.footer-contacts:active,
+.footer-contacts:focus {
+  color: var(--active-color);
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+
+  color: var(--brand-color, black);
+  background: var(--second-color, white);
+  margin: auto;
+
+  width: 1600px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+  color: var(--brand-color, black);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.highlight {
+  color: var(--active-color);
+}
+
+.header-links {
+  text-decoration: none;
+  color: var(--brand-color, black);
+
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header-links:hover,
+.header-links:focus,
+.header-links:active {
+  color: var(--active-color);
+}
+
+.footer {
+  background-color: var(--second-background-color);
+}
+
+.footer-color {
+  color: var(--second-color, white);
+}
+
+.address {
+  color: var(--second-color, white);
+  line-height: 1.71;
+}
+
+button:hover,
+button:active,
+button:focus {
+  color: var(--second-color, white);
+  background-color: var(--active-color);
+}
+
+.address {
+  font-style: normal;
+
+  font-size: 14px;
+}
+
+.addres-company {
+  font-style: normal;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.images-description-main {
+  padding-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.content-keyword {
+  color: var(--description-color);
+
+  line-height: 1.875;
+  font-size: 16px;
+}
+
+.portfolio-button {
+  padding: 6px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  color: var(--brand-color, black);
+  border: var(--third-background-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.portfolio-button:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.main-title-web {
+  background-color: var(--second-background-color);
+
+  display: block;
+  margin: auto;
+}
+
+.main-text-content {
+  display: block;
+  text-align: center;
+
+  padding: 200px 0;
+}
+
+.title-page {
+  color: var(--second-color, white);
+
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.button-main-page {
+  background-color: var(--active-color);
+
+  cursor: pointer;
+
+  color: var(--brand-color, black);
+  border: none var(--third-background-color);
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Roboto";
+  text-align: center;
+  border-radius: 4px;
+
+  padding: 10px 41px 10px 42px;
+  margin-top: 30px;
+}
+
+.style-button-main-page {
+  color: var(--second-color, white);
+
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.title-profile {
+  line-height: 1.36;
+  font-weight: 700;
+  color: var(--brand-color, black);
+  font-size: 14px;
+}
+
+.profile-content {
+  line-height: 1.71;
+  padding-top: 10px;
+  color: var(--description-color);
+  font-size: 14px;
+}
+
+.about-us {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
+  line-height: 1.17;
+}
+
+.our-team {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto";
+  padding-top: 94px;
+  line-height: 1.17;
+}
+
+.workers {
+  background-color: var(--third-background-color);
+  margin-top: 94px;
+}
+
+.workers-list {
+  margin: 0;
+  padding: 0;
+  background-color: var(--second-color);
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-section {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+
+.first-name {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.proffesion {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  color: var(--description-color);
+}
+
+.navigation-links {
+  list-style-type: none;
+  display: flex;
+  gap: 46px;
+  padding-left: 93px;
+}
+
+.none-decoration-ul {
+  list-style-type: none;
+  line-height: 1.71;
+}
+
+.text-decoration {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+h1 h2 h3 h4 h5 h6 p ul {
+  display: block;
+  margin: 0;
+}
+
+.navigation-contacts {
+  list-style-type: none;
+  display: flex;
+}
+
+.header {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-list {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  padding-top: 94px;
+}
+
+.header-border {
+  border: 1px solid var(--grey-line-color);
+}
+
+.project-list-style {
+  list-style-type: none;
+  display: flex;
+  margin-top: 84px;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin-bottom: 94px;
+}
+
+.project-list-child {
+  border: 1px solid var(--grey-line-color);
+  background: var(--second-color);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contacts-pack {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+
+.footer-navigation {
+  padding-top: 60px;
+}
+
+.footer-contacts-mail {
+  padding-top: 9px;
+}
+
+.footer-contacts-number {
+  padding-top: 9px;
+  padding-bottom: 60px;
+}
+
+.short-description {
+  padding-top: 94px;
+
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.description-lorem-ipsum {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.main-page-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.extra-padding-portfolio {
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.center-name {
+  padding-bottom: 30px;
+  line-height: 1.17;
+}
