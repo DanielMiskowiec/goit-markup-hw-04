@@ -396,3 +396,14 @@ h1 h2 h3 h4 h5 h6 p ul {
   padding-bottom: 30px;
   line-height: 1.17;
 }
+
+.icon-main-page {
+  display: flex;
+  background-color: var(--third-background-color);
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 102.34px;
+  padding-right: 102.34px;
+  border-radius: 4px;
+}
