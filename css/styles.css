@@ -17,13 +17,17 @@
 .header-contacts {
   text-decoration: none;
   color: var(--description-color);
-
+  display: flex;
+  margin-left: 27px;
+  line-height: 1.142em;
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
 }
 
 .header-contacts-number {
   padding-left: 50px;
+  /* display: inline-block; */
 }
 
 .footer-contacts {
@@ -36,7 +40,9 @@
 
 .main-contacts {
   padding-left: 364px;
-  display: flex;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .header-contacts:hover,
@@ -153,10 +159,21 @@ button:focus {
 }
 
 .main-title-web {
-  background-color: var(--second-background-color);
-
   display: block;
   margin: auto;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+
+  text-align: center;
 }
 
 .main-text-content {
@@ -408,4 +425,11 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .image-offline {
   display: block;
+}
+
+.nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
 }
