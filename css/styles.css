@@ -7,6 +7,7 @@
   --third-background-color: #f5f4fa;
   --grey-line-color: #eeeeee;
   --social-links-color: #afb1b8;
+  --circle-background-color: rgba(255, 255, 255, 0.1)
 }
 
 * {
@@ -484,7 +485,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 .clients-box {
   height: 92px;
   width: 170px;
-  border: 1px solid rgba(175, 177, 184, 1);
+  border: 1px solid var(--social-links-color);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -508,4 +509,15 @@ h1 h2 h3 h4 h5 h6 p ul {
   font-weight: 700;
 
   color: var(--second-color);
+}
+
+.social-icon-footer {
+  background-color: var(--circle-background-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
 }
