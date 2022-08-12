@@ -441,7 +441,6 @@ h1 h2 h3 h4 h5 h6 p ul {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  
 }
 
 .not-dot {
@@ -463,6 +462,10 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .social-icon-workers:hover {
   background-color: var(--blue-color);
+}
+
+.social-icon-workers:hover svg {
+  fill: var(--second-color);
 }
 
 .social-icon {
@@ -499,6 +502,14 @@ h1 h2 h3 h4 h5 h6 p ul {
   margin-bottom: 94px;
 }
 
+.clients-box:hover svg {
+  fill: var(--blue-color);
+}
+
+.clients-box:hover {
+  border: 1px solid var(--blue-color);
+}
+
 .client-icons {
   fill: var(--social-links-color);
   width: 106px;
@@ -532,6 +543,10 @@ h1 h2 h3 h4 h5 h6 p ul {
   background-color: var(--blue-color);
 }
 
+.social-icon-footer:hover svg {
+  fill: var(--second-color);
+}
+
 .social-icon:hover {
   fill: var(--second-color);
 }
@@ -540,9 +555,6 @@ h1 h2 h3 h4 h5 h6 p ul {
   fill: var(--blue-color);
 }
 
-.client-icons:hover {
-  fill: var(--blue-color);
-}
 
 .padding-workers {
   padding-bottom: 30px;
