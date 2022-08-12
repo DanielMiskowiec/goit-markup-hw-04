@@ -441,6 +441,7 @@ h1 h2 h3 h4 h5 h6 p ul {
   gap: 10px;
   justify-content: center;
   align-items: center;
+  
 }
 
 .not-dot {
@@ -541,4 +542,8 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .client-icons:hover {
   fill: var(--blue-color);
+}
+
+.padding-workers {
+  padding-bottom: 30px;
 }
