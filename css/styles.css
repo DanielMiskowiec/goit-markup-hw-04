@@ -7,7 +7,8 @@
   --third-background-color: #f5f4fa;
   --grey-line-color: #eeeeee;
   --social-links-color: #afb1b8;
-  --circle-background-color: rgba(255, 255, 255, 0.1)
+  --circle-background-color: rgba(255, 255, 255, 0.1);
+  --blue-color: rgba(33, 150, 243, 1);
 }
 
 * {
@@ -29,7 +30,6 @@
 
 .header-contacts-number {
   padding-left: 50px;
-  /* display: inline-block; */
 }
 
 .footer-contacts {
@@ -456,7 +456,12 @@ h1 h2 h3 h4 h5 h6 p ul {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon-workers:hover {
+  background-color: var(--blue-color);
 }
 
 .social-icon {
@@ -520,4 +525,20 @@ h1 h2 h3 h4 h5 h6 p ul {
   justify-content: center;
   display: flex;
   margin-top: 20px;
+}
+
+.social-icon-footer:hover {
+  background-color: var(--blue-color);
+}
+
+.social-icon:hover {
+  fill: var(--second-color);
+}
+
+.nav-icon:hover {
+  fill: var(--blue-color);
+}
+
+.client-icons:hover {
+  fill: var(--blue-color);
 }
