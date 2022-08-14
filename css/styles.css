@@ -41,7 +41,6 @@
 }
 
 .main-contacts {
-  padding-left: 364px;
   display: inline-flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -295,7 +294,6 @@ button:focus {
   list-style-type: none;
   display: flex;
   gap: 46px;
-  padding-left: 93px;
 }
 
 .none-decoration-ul {
@@ -364,10 +362,18 @@ h1 h2 h3 h4 h5 h6 p ul {
 .contacts-pack {
   display: flex;
 
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding-bottom: 25px;
   padding-top: 24px;
+}
+
+.padding-links-header {
+  display: inline-flex;
+
+  gap: 46px;
+  margin-left: 93px;
+  margin-right: 345px;
 }
 
 .footer-navigation {
@@ -554,7 +560,6 @@ h1 h2 h3 h4 h5 h6 p ul {
 .nav-icon:hover {
   fill: var(--blue-color);
 }
-
 
 .padding-workers {
   padding-bottom: 30px;
