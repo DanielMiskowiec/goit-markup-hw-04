@@ -28,7 +28,11 @@
   font-size: 14px;
 }
 
-.header-contacts-number {
+.header-contacts:hover {
+  fill: var(--blue-color);
+}
+
+.header-contacts:hover .header-contacts-number {
   padding-left: 50px;
 }
 
@@ -435,11 +439,18 @@ h1 h2 h3 h4 h5 h6 p ul {
   display: block;
 }
 
+.portfolio-overlay:hover {
+  cursor: pointer;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
 .nav-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-right: 10px;
+  fill: var(--blue-color);
 }
 
 .workers-social-links {
@@ -468,6 +479,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .social-icon-workers:hover {
   background-color: var(--blue-color);
+  cursor: pointer;
 }
 
 .social-icon-workers:hover svg {
@@ -555,10 +567,6 @@ h1 h2 h3 h4 h5 h6 p ul {
 
 .social-icon:hover {
   fill: var(--second-color);
-}
-
-.nav-icon:hover {
-  fill: var(--blue-color);
 }
 
 .padding-workers {
