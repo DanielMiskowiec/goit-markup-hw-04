@@ -450,6 +450,10 @@ h1 h2 h3 h4 h5 h6 p ul {
   justify-content: center;
   align-items: center;
   padding-right: 10px;
+  fill: var(--description-color);
+}
+
+.header-contacts:hover .nav-icon {
   fill: var(--blue-color);
 }
 
